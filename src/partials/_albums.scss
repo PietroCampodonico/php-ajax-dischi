@@ -1,0 +1,22 @@
+.album-container {
+    padding: $spacing 0;
+    @include disp_flex_wrap;
+}
+
+.album {
+    margin: $spacing;
+    max-width: $album_square_side_length;
+    max-height: $album_square_side_length;
+    color: $album_font_color;
+    box-shadow: $album_box_shadow;
+}
+
+
+.album > img {
+    @include poster_styles;
+}
+
+.album > h3,
+.album > h4 {
+    margin: 5px 0;
+}
