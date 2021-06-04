@@ -1,5 +1,5 @@
 <?php
-include "music_albums.php"
+include "music_albums.php";
 ?>
 
 <!DOCTYPE html>
